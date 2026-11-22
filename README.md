@@ -15,7 +15,7 @@ Bu proje; bir kampus kutuphanesinin kitap katalogunu, duyuru panosunu, odunc kit
 | Modul | Veri Yapilari / Algoritmalar | Sorumlu Ogrenci |
 | :--- | :--- | :--- |
 | **Modul 1** | Cift Yonlu Dogrusal Bagli Liste (Kitap Katalogu), Tek Yonlu Dairesel Bagli Liste (Duyuru Panosu), Dosya Islemleri (`ofstream` / `ifstream`) | Bahadir Karasu |
-| **Modul 2** | Bagli Liste Tabanli Yigin (Stack - Islem Gecmisi / Undo) ve Kuyruk (Queue - Odunc Bekleme Sirasi) | Umut [Soyad] |
+| **Modul 2** | Bagli Liste Tabanli Yigin (Stack - Islem Gecmisi / Undo) ve Kuyruk (Queue - Odunc Bekleme Sirasi) | Umut Gumus |
 | **Modul 3** | Dizi Uzerinde Siralama ve Arama (Bubble Sort, Insertion Sort, Quick Sort, Binary Search) | Adnan Alperen Ustun |
 | **Modul 4** | Graf (2B Komsuluk Matrisi), BFS, DFS ve Dijkstra En Kisa Kampus Rotasi | Doruk Ulas Yildiz |
 
@@ -24,14 +24,14 @@ Bu proje; bir kampus kutuphanesinin kitap katalogunu, duyuru panosunu, odunc kit
 Program C++11 veya uzeri standartlarla derlenmelidir (tum kod ve konsol ciktilari ASCII karakterler ile yazilacaktir):
 
 ```bash
-g++ -std=c++11 main.cpp -o kutuphane
+g++ -std=c++11 main.cpp modul1.cpp modul2.cpp modul3.cpp modul4.cpp -o kutuphane
 ./kutuphane
 ```
 
 Windows (MinGW) ortaminda:
 
 ```bash
-g++ -std=c++11 main.cpp -o kutuphane.exe
+g++ -std=c++11 main.cpp modul1.cpp modul2.cpp modul3.cpp modul4.cpp -o kutuphane.exe
 kutuphane.exe
 ```
 
